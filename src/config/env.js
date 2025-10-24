@@ -10,5 +10,12 @@ export const env = {
     jwtAccessSecret: process.env.JWT_ACCESS_SECRET,
     jwtRefreshSecret: process.env.JWT_REFRESH_SECRET,
     jwtAccessExpires: process.env.JWT_ACCESS_EXPIRES,
-    jwtRefreshExpires: process.env.JWT_REFRESH_EXPIRES
+    jwtRefreshExpires: process.env.JWT_REFRESH_EXPIRES,
+    smtpPass: process.env.SMTP_PASS,
+    smtpHost: process.env.SMTP_HOST,
+    smtpUser: process.env.SMTP_USER,
+    smtpPort: process.env.SMTP_PORT,
+    smtpFrom: process.env.SMTP_FROM,
+    tokenExpiresEmailHours: process.env.TOKEN_EXPIRES_EMAIL_HOURS,
+    tokenExpiresResetHours: process.env.TOKEN_EXPIRES_RESET_HOURS
 }
